@@ -325,9 +325,13 @@ header svg{
         padding-right: 2vw;
     }
 
+
+
 }
 
 @media only screen and (min-width: 880px){
+
+
   .header li {
     float: left;
   }
@@ -1311,6 +1315,18 @@ body{
     height: inherit;
 }
 
+.thank-tag{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.thank-tag h4{
+    font-size: 20px;
+    margin: 0px;
+}
+
 .thank-you-hero{
     background-color: #f5f5f5;
     padding-right: 16vw;
@@ -1342,7 +1358,7 @@ body{
 
 .grid-container{
     display: flex;
-    gap: 16px;
+    gap: 12px;
     flex-direction: column;
 }
 
@@ -1454,6 +1470,9 @@ body{
 }
 
 .grid-left-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 50%;
     height: 100%;
     padding: 24px 22px;
@@ -1465,6 +1484,14 @@ body{
     margin-bottom: 20px;
     line-height: 1;
     font-size: 28px;
+}
+
+.grid-left-info-text p{
+    max-width: 248px;
+}
+
+.grid-left-info a{
+    width: 196px;
 }
 
 .grid-left-info p{
@@ -1480,7 +1507,7 @@ body{
     height: 100% !important;
     overflow: hidden !important;
     padding: 16px;
-    object-fit: cover !important;
+    object-fit: contain !important;
 }
 
 .grid-right-img img{
@@ -2945,6 +2972,8 @@ textarea {
         width: 92vw;
     }
 
+
+
     .fish-grid{
 
         grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); /* Adjust the min-width */
@@ -3073,6 +3102,43 @@ textarea {
 }
 
 @media only screen and (max-width: 910px){
+
+    .grid-left-info a{
+        margin-top: 24px !important;
+    }
+
+    .grid-fly h3{
+        font-size: 20px;
+    }
+
+
+    .instruction-grid{
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
+
+    .grid-anglingiq{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .grid-left-info{
+        width: 100%;
+    }
+
+    .grid-anglingiq img{
+        width: 100% !important;
+        height: 320px !important;
+    }
+
+    .thank-you-page-video{
+        display: none;
+    }
+
+    .thank-you-hero{
+        width: 90vw !important;
+    }
+
     .scroll-container{
         flex-direction: column;
 
@@ -3674,6 +3740,7 @@ textarea {
         padding-bottom: 0;
         z-index: 100;
         max-height: 422px;
+        min-height: 0px;
     }
 
         .hero-center{
@@ -4341,10 +4408,6 @@ textarea {
     }
 
 
-
-    .hero-left{
-        min-height: 0px !important; 
-    }
 
     .video-insert{
         min-height: 0px !important;
