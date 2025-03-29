@@ -3472,6 +3472,10 @@ textarea {
 
 @media only screen and (max-width: 880px){
 
+    .map-modal img{
+
+    }
+
     .modal-content{
         width: 95vw;
         max-height: 85vh !important;
