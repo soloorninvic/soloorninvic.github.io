@@ -3268,6 +3268,11 @@ textarea {
 
 @media only screen and (max-width: 910px){
 
+    .plus-expand{
+        bottom: 0;
+        top: inherit;
+    }
+
     .video-insert{
         position: relative;
     }
