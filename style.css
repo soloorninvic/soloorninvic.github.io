@@ -3988,8 +3988,11 @@ textarea {
         align-items: center;
         padding-bottom: 0;
         z-index: 100;
-        max-height: 422px;
         min-height: 0px;
+    }
+
+    .z-index{
+        padding-bottom: 72px;
     }
 
         .hero-center{
