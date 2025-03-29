@@ -3428,6 +3428,7 @@ textarea {
 
     .modal-content{
         width: 95vw;
+        height: 85vh !important;
     }
 
     .modal-content img{
