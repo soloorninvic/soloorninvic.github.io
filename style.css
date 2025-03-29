@@ -1590,7 +1590,7 @@ body{
     margin-top: 0px !important;
     margin-bottom: 20px;
     line-height: 1;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .grid-left-info-text p{
@@ -1777,12 +1777,11 @@ body{
 }
 
 .map-modal .time-table{
-    margin-top: 32px;
     padding: 20px;
     background-color: #fff;
     border-radius: 16px;
     width: auto !important;
-    margin-top: 0px !important;
+    margin-top: 32px;
     min-width: 320px;
 }
 
@@ -3271,6 +3270,11 @@ textarea {
 
 @media only screen and (max-width: 910px){
 
+    .map-modal-textarea p{
+        margin-top: 16px;
+        font-size: 17px;
+    }
+
     .grid-container{
         gap: 8px;
     }
@@ -3280,11 +3284,12 @@ textarea {
     }
 
     .grid-left-info h3{
+        font-size: 24px;
         margin-bottom: 12px;
     }
 
     .map-modal{
-        padding: 0px !important;
+        padding-left: 0px !important;
     }
 
     .map-modal-top{
@@ -3469,7 +3474,7 @@ textarea {
 
     .modal-content{
         width: 95vw;
-        height: 85vh !important;
+        max-height: 85vh !important;
     }
 
     .modal-content img{
@@ -3492,16 +3497,27 @@ textarea {
         width: 100%;
     }
 
+    .map-modal h4{
+        margin-top: 0px !important;
+    }
+
+    .map-modal-textarea{
+        width: 100%;
+    }
+
     .form-container{
-        padding-left: 4vw !important;
+        padding-left: 4vw;
         padding-right: 4vw;
+    }
+
+    .map-modal-top{
+        padding: 24px 16px;
     }
 
 
 
     .form-container{
         width: 100%;
-        padding: none;
         margin: 0px;
     }
 
