@@ -3271,6 +3271,14 @@ textarea {
 
 @media only screen and (max-width: 910px){
 
+    .grid-container{
+        gap: 8px;
+    }
+
+    .grid-fly{
+        gap: 12px;
+    }
+
     .grid-left-info h3{
         margin-bottom: 12px;
     }
@@ -3294,6 +3302,14 @@ textarea {
 
     .zones{
         flex-direction: column-reverse !important;
+    }
+
+    .zones h3{
+        margin-bottom: 16px;
+    }
+
+    .zones-p{
+        margin-top: 12px;
     }
 
     .grid-2row{
