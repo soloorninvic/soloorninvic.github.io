@@ -3503,6 +3503,7 @@ textarea {
 
     .map-modal-textarea{
         width: 100%;
+        padding-left: 4px;
     }
 
     .form-container{
