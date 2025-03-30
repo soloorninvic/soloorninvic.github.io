@@ -3278,6 +3278,19 @@ textarea {
 
 @media only screen and (max-width: 910px){
 
+    .sec-7-right{
+        z-index: 100;
+        overflow: visible;
+    }
+
+    .sec-7-right button{
+        margin-right: 0px;
+    }
+
+    .sec-7-right .button-container{
+        margin-top: 292px !important;
+    }
+
     .grid-2row h4{
         font-size: 15px;
     }
@@ -4050,6 +4063,11 @@ textarea {
         height: 50vh;
     }
 
+    .video-insert-2{
+        width: 100%;
+        height: 50vh;
+    }
+
     .gallery-2-bottom{
         display: none;
     }
@@ -4394,7 +4412,7 @@ textarea {
     }
 
     .section-7 h2{
-        font-size: 30px;
+        font-size: 36px;
         line-height: 1.1;
         letter-spacing: 2%;
           letter-spacing: 0.02em; /* Fallback for browsers that don't support % */
@@ -4402,17 +4420,22 @@ textarea {
         padding-left: 0px;
     }
 
+    .section-7 button{
+        width: 70vw !important;
+    }
+
     .section-7 h3{
-        font-size: 16px;
+        font-size: 22px;
         text-align: center;
         padding-left: 0px;
-        padding-top: 22px;
-        padding-bottom: 8px;
+        padding-top: 16px;
+        padding-bottom: 20px;
+        max-width: 294px;
     }
 
     .section-7 span{
         padding-top: 40px;
-        padding-bottom: 24px;
+        padding-bottom: 20px;
         padding-left: 0px;
     }
 
@@ -4625,13 +4648,14 @@ textarea {
     }
 
     .h3-h1{
-        font-size: 48px;
+        font-size: 40px;
         margin: 0px !important;
     }
 
     .h1-h2{
         font-size: 26px;
         margin-top: 14px !important;
+        max-width: 350px;
     }
 
     .h2-h3{
