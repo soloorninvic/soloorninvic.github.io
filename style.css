@@ -750,6 +750,14 @@ span{
     padding-right: 7vw;
 }
 
+.button-container a{
+    height: 58px;
+}
+
+.button-container a:nth-child(3){
+    margin-right: 0px;
+}
+
 .sec-7-right .button-container{
     padding-left: 7vw;
     padding-bottom: 7vw;
@@ -1154,6 +1162,7 @@ footer path{
 }
 
 .gallery button{
+    margin-right: 12px;
     color: #1D1F1C;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.5);
@@ -3776,7 +3785,7 @@ textarea {
 @media only screen and (max-width: 720px){
 
         .sec-7-right .button-container{
-        margin-top: 311px !important;
+        margin-top: 318px !important;
     }
 
 
@@ -3868,7 +3877,7 @@ textarea {
     .button-container{
         margin-top: 50px;
         position: absolute;
-        bottom: -26px; /* Moves buttons outside the bottom of the container */
+        bottom: -28px; /* Moves buttons outside the bottom of the container */
         left: 50%;
         transform: translateX(-50%);
         z-index: 1;
@@ -4132,6 +4141,10 @@ textarea {
         font-size: 15px;
         padding: 12px 16px 12px 16px;        
         background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .fly-grid img{
+        max-height: 66px;
     }
 
     .section-1 h2{
@@ -4414,13 +4427,13 @@ textarea {
 
     .section-7 .button-container{
         bottom: inherit;
-        margin-top: 292px;
+        margin-top: 288px;
         padding: 0px;
     }
 
     .sec-7-right{
         width: 100vw;
-        height: 338px;
+        height: 348px;
         align-items: center;
         justify-content: start;
         padding-right: 7vw;
@@ -4442,6 +4455,7 @@ textarea {
     }
 
     .section-7 button{
+        height: 58px;
         width: 62vw !important;
     }
 
@@ -4661,7 +4675,12 @@ textarea {
     }
 
     .GIT-Headline{
-        font-size: 36px !important;
+        margin-top: 16px;
+        font-size: 28px !important;
+    }
+
+    .flies-modal h4{
+        font-size: 22px !important;
     }
 
     .form-post-container{
