@@ -3862,6 +3862,7 @@ textarea {
 
     .body-container{
         margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     .button-container{
@@ -3879,7 +3880,7 @@ textarea {
     }
 
     .z-index{
-        margin-top: 30px;
+        margin-top: 24px;
         align-items: center;
     }
     .button-container{
@@ -3899,7 +3900,7 @@ textarea {
     }
 
     .button-container a{
-        width: 192px;
+        width: 180px;
         margin-right: 12px;
     }
 
@@ -3907,8 +3908,8 @@ textarea {
         width: 100%;
     }
 
-    .button-container button:nth-child(2){
-        width: 118px;
+    .smlr{
+        width: 132px !important;
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -4668,14 +4669,14 @@ textarea {
     }
 
     .h3-h1{
-        font-size: 40px;
+        font-size: 36px;
         margin: 0px !important;
     }
 
     .h1-h2{
-        font-size: 26px;
+        font-size: 24px;
         margin-top: 14px !important;
-        max-width: 350px;
+        max-width: 340px;
     }
 
     .h2-h3{
