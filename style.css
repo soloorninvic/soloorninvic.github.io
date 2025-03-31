@@ -1386,7 +1386,7 @@ body{
 }
 
 .zones button{
-    background-color: #fff;
+    background-color: #f5f5f5;
 }
 
 .zones p{
@@ -1614,7 +1614,7 @@ body{
 
 .spt{
     font-size: 16px !important;
-    max-width: 248px !important;
+    max-width: 242px !important;
 }
 
 .grid-anglingiq img{
@@ -1963,7 +1963,7 @@ body.modal-open {
 .video-insert-2{
     min-height: 0px;
     height: 763px;
-    width: 48vw;
+    width: 41vw;
     object-fit: cover;
     left: 0;
     max-height: 1100px;
@@ -2041,7 +2041,7 @@ body.modal-open {
 }
 
 .info-left{
-    margin-top: 32px;
+    margin-top: 20px;
     width: 45vw;
     height: auto;
     scroll-behavior: smooth;
@@ -3286,8 +3286,12 @@ textarea {
 
 @media only screen and (max-width: 910px){
 
+    .zones button{
+        background-color: #fff;
+    }
+
     .grid-2row{
-        gap: 8px;
+        gap: 8px    ;
     }
 
     .spt{
@@ -3304,7 +3308,7 @@ textarea {
     }
 
     .sec-7-right .button-container{
-        margin-top: 292px !important;
+        margin-top: 311px !important;
     }
 
     .grid-2row h4{
@@ -4415,7 +4419,7 @@ textarea {
 
     .sec-7-right{
         width: 100vw;
-        height: 318px;
+        height: 338px;
         align-items: center;
         justify-content: start;
         padding-right: 7vw;
@@ -4437,16 +4441,16 @@ textarea {
     }
 
     .section-7 button{
-        width: 70vw !important;
+        width: 62vw !important;
     }
 
     .section-7 h3{
-        font-size: 22px;
+        font-size: 24px;
         text-align: center;
         padding-left: 0px;
         padding-top: 16px;
         padding-bottom: 20px;
-        max-width: 294px;
+        max-width: 314px;
     }
 
     .section-7 span{
