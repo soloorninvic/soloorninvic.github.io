@@ -385,6 +385,7 @@ h1{
 
 .h3-h1{
     font-family: "Black";
+    width: 59%;
     font-size: 72px;
     line-height: 1.1;
     letter-spacing: 2%;
@@ -1240,6 +1241,7 @@ button:active{
 .secondary{
     color: #fff;
     background-color: #555853;
+    margin-right: 0px;
 }
 
 .custom-show{
@@ -3161,7 +3163,8 @@ textarea {
     }
 
     .hero-left{
-        padding-left: 4vw;
+        padding-left: 0vw;
+        margin-right: 10%;
     }
 
     .info-left{
@@ -3239,15 +3242,11 @@ textarea {
         width: 89vw;
     }
 
-    .section-7 h2{
-        font-size: 44px;
-    }
-
 
 }
 
 
-@media only screen and (max-width: 1250px) and (min-width: 880px) {
+@media only screen and (max-width: 1350px) and (min-width: 880px) {
 
     .info-left{
         width: 55vw!important;
@@ -3261,9 +3260,6 @@ textarea {
         width: 90vw;
     }
 
-    .section-7 h2{
-        font-size: 48px;
-    }
 
     footer{
         width: 90vw;
@@ -3307,9 +3303,7 @@ textarea {
         margin-right: 0px;
     }
 
-    .sec-7-right .button-container{
-        margin-top: 311px !important;
-    }
+
 
     .grid-2row h4{
         font-size: 15px;
@@ -3518,6 +3512,7 @@ textarea {
 }
 
 @media only screen and (max-width: 880px){
+
 
     .map-modal img{
 
@@ -3779,6 +3774,11 @@ textarea {
 
 
 @media only screen and (max-width: 720px){
+
+        .sec-7-right .button-container{
+        margin-top: 311px !important;
+    }
+
 
     .sticky-thumbs-down{
         display: flex;
@@ -4671,6 +4671,7 @@ textarea {
     .h3-h1{
         font-size: 36px;
         margin: 0px !important;
+        width: 100%;
     }
 
     .h1-h2{
@@ -4810,7 +4811,6 @@ textarea {
 
     .z-index{
         transform: scale(0.9);
-        margin-left: -4%;
     }
 
     .hero-left{
