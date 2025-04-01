@@ -1458,10 +1458,47 @@ body{
     gap: 12px;
 }
 
+.last-row{
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 4px !important;
+}
+
+.grid2-row-button{
+    width: 100% !important;
+    height: 100%;
+}
+
+.grid2-row-button:hover .plus-expand{
+    background-color: #B6DB91;
+}
+
+.last-row p{
+    margin-top: 0px !important;
+}
+
+.last-row-2 p:nth-child(3){
+    margin-top: 16px !important;
+}
+
+.max-1{
+    max-width: 260px !important;
+}
+
+.max-2{
+    max-width: 260px !important;
+}
+
+.a-half{
+    width: 50% !important;
+}
+
+
 .grid-2row-container{
+    position: relative;
     background-color: #fff;
     border-radius: 16px;
-    padding: 20px;
+    padding: 16px 20px 24px 20px;
     width: 50%;
 }
 
@@ -1625,7 +1662,7 @@ body{
 
 .spt{
     font-size: 16px !important;
-    max-width: 242px !important;
+    max-width: 255px !important;
 }
 
 .grid-anglingiq img{
@@ -3308,6 +3345,11 @@ textarea {
 
 @media only screen and (max-width: 910px){
 
+    .a-half{
+        width: 100% !important;
+    }
+
+
     .zones button{
         background-color: #fff;
     }
@@ -3423,7 +3465,7 @@ textarea {
 
     .grid-anglingiq img{
         width: 100% !important;
-        height: 320px !important;
+        height: 274px !important;
     }
 
     .zones img{
