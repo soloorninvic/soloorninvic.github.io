@@ -361,7 +361,9 @@ header svg{
 
 
 
-
+.instruction-grid h2{
+    font-size: 30px;
+}
 
 h1{
     font-family: "Black";
@@ -377,7 +379,7 @@ h1{
     font-size: 42px;
     line-height: 1.2;
     letter-spacing: 2%;
-      letter-spacing: 0.02em; /* Fallback for browsers that don't support % */
+      letter-spacing: 0.04em; /* Fallback for browsers that don't support % */
     color: #ffffff;
     margin-top: 22px;
     max-width: 540px;
