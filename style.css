@@ -156,7 +156,7 @@ header.scrolled li a{
 
 header svg{
     transform: scale(0.95);
-    margin-top: 11px;
+    margin-top: 9px;
 }
 
 .header svg path{
@@ -359,7 +359,20 @@ header svg{
 
 }
 
+.grid-imagestack{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+}
 
+.grid-imagestack img{
+    height: calc(50% - 4px);
+    width: 100% !important;
+    min-height: inherit !important;
+    padding: 0px !important;
+    object-fit: cover !important;
+}
 
 .instruction-grid h2{
     font-size: 30px;
@@ -382,7 +395,7 @@ h1{
       letter-spacing: 0.04em; /* Fallback for browsers that don't support % */
     color: #ffffff;
     margin-top: 22px;
-    max-width: 540px;
+    max-width: 560px;
 }
 
 .h3-h1{
@@ -1667,7 +1680,7 @@ body{
 }
 
 .grid-left-info p{
-    color: #525252 !important;
+    color: #525252;
     font-size: 14px;
 }
 
@@ -1676,14 +1689,39 @@ body{
     max-width: 255px !important;
 }
 
+.grid-stay{
+    margin-top: 0px !important;
+    height: auto !important;
+}
+
+.grid-stay h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.max-3{
+    font-size: 16px !important;
+    max-width: 300px !important;
+    color: #1D1F1C !important;
+}
+
+.max-4{
+    font-size: 15px !important;
+    max-width: 326px !important;
+    color: #525252 !important;
+    font-family: "Medium";
+    margin-top: 16px;
+}
+
+
 .grid-anglingiq img{
     position: relative !important;
-    width: 50% !important;
+    width: 50%;
     background-color: #EAEEE7 !important;
-    min-height: 100% !important;
+    min-height: 100%;
     overflow: hidden !important;
     padding: 16px;
-    object-fit: contain !important;
+    object-fit: contain;
 }
 
 .grid-right-img img{
@@ -2066,7 +2104,7 @@ body.modal-open {
 }
 
 
-.sticky-cta button{
+.sticky-cta a{
     width: 100%;
     padding: 16px;
     margin-top: 28px;
@@ -3320,7 +3358,7 @@ textarea {
 }
 
 
-@media only screen and (max-width: 1350px) and (min-width: 880px) {
+@media only screen and (max-width: 1480px) and (min-width: 880px) {
 
     .info-left{
         width: 55vw!important;
@@ -3355,6 +3393,21 @@ textarea {
 }
 
 @media only screen and (max-width: 910px){
+
+    .grid-stay{
+        flex-direction: column-reverse !important;
+    }
+
+    .grid-imagestack{
+        width: 100%;
+        gap: 6px;
+        flex-direction: column-reverse !important;
+    }
+
+    .grid-imagestack img{
+        height: 240px;
+        height: 93px !important;
+    }
 
     .a-half{
         width: 100% !important;
@@ -3424,7 +3477,7 @@ textarea {
     }
 
     .zones{
-        flex-direction: column-reverse !important;
+
     }
 
     .zones h3{
@@ -3476,7 +3529,7 @@ textarea {
 
     .grid-anglingiq img{
         width: 100% !important;
-        height: 274px !important;
+        height: 274px;
     }
 
     .zones img{
@@ -4043,7 +4096,7 @@ textarea {
     header svg{
         transform: scale(0.88);
         position: absolute;
-        margin-top: 5px;
+        margin-top: 4px;
         margin-left: 6px;
     }
 
