@@ -3394,6 +3394,25 @@ textarea {
 
 @media only screen and (max-width: 910px){
 
+    .grid-anglingiq{
+        position: relative;
+    }
+
+    .grid-left-info a{
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        bottom: 0;
+        z-index: 99;
+        background-color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(24px);
+        -webkit-backdrop-filter: blur(24px);
+    }
+
+    .instruction-grid h2{
+        margin-left: 11px;
+    }
+
     .grid-stay{
         flex-direction: column-reverse !important;
     }
@@ -3415,6 +3434,8 @@ textarea {
 
 
     .zones button{
+        bottom: inherit !important;
+        top: 0;
         background-color: #fff;
     }
 
@@ -3423,6 +3444,7 @@ textarea {
     }
 
     .spt{
+        max-width: 243px !important;
         font-size: 15px !important;
     }
 
@@ -3529,7 +3551,8 @@ textarea {
 
     .grid-anglingiq img{
         width: 100% !important;
-        height: 274px;
+        height: 324px;
+        padding: 16px 16px 56px 16px
     }
 
     .zones img{
