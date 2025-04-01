@@ -3404,9 +3404,11 @@ textarea {
         position: absolute;
         bottom: 0;
         z-index: 99;
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 20px;
         backdrop-filter: blur(24px);
         -webkit-backdrop-filter: blur(24px);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05); /* x-offset | y-offset | blur radius | color */
     }
 
     .instruction-grid h2{
@@ -3551,8 +3553,12 @@ textarea {
 
     .grid-anglingiq img{
         width: 100% !important;
-        height: 324px;
-        padding: 16px 16px 56px 16px
+        height: 394px;
+        padding: 16px 16px 96px 16px
+    }
+
+    .img-2{
+        padding: 0px !important;
     }
 
     .zones img{
