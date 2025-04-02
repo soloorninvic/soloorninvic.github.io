@@ -3664,6 +3664,11 @@ textarea {
         padding: 0px !important;
     }
 
+    .img-3{
+        padding: 0px !important;
+        height: 246px !important;
+    }
+
     .zones img{
         height: 240px;
     }
