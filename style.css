@@ -378,6 +378,14 @@ header svg{
     font-size: 36px;
 }
 
+.thank-you-instruction-grid h2{
+    color: #45772C !important;
+    text-transform: uppercase !important;
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 3%;
+}
+
 h1{
     font-family: "Black";
     font-size: 80px;
@@ -501,6 +509,10 @@ span{
 
 .white{
     color: #fff !important;
+}
+
+.black{
+    color: #1D1F1C !important;
 }
 
 .body-container h1, h2, h3, p{
@@ -794,13 +806,17 @@ span{
 }
 
 footer{
-    width: 80vw;
-    padding: 40px 0px;
+    width: 100vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 1428px;
     height: 300px;
+    background-color: #f5f5f5;
+    z-index: 99;
 }
 
 .footer-row-1{
@@ -2072,6 +2088,47 @@ body.modal-open {
   right: 0;
   max-height: 1100px;
 }
+
+.video-insert-slim{
+    width: 30vw !important;
+    position: fixed;
+}
+
+.hero-slim{
+    height: 380px;
+}
+
+.hero-slim .h1-h2{
+    font-size: 28px;
+}
+
+.z-index-left{
+    padding-left: 4px;
+}
+
+.hero-slim .hero-left{
+    padding-bottom: 0px;
+}
+
+.hero-sub-icon{
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    gap: 12px;
+}
+
+.hero-sub-icon h4{
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.hero-sub-icon img{
+    position: relative;
+    width: 37px !important;
+    height: 38px !important;
+}
+
+
 
 .video-insert-2{
     min-height: 0px;
@@ -3374,7 +3431,8 @@ textarea {
 
 
     footer{
-        width: 90vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
 
     header{
@@ -3393,6 +3451,50 @@ textarea {
 }
 
 @media only screen and (max-width: 910px){
+
+    .hero-slim{
+        flex-direction: column-reverse !important;
+        
+    }
+
+    .thank-you-instruction-grid{
+        margin-top: 0px !important;
+    }
+
+    .thank-you-instruction-grid h2 {
+        font-size: 16px !important;
+        max-width: 200px;
+    }
+
+    .hero-left-slim{
+        padding-top: 12px !important;
+        align-items: flex-start !important;
+        margin-left: 16px;
+    }
+
+    .hero-slim .h1-h2{
+        text-align: left;
+        font-size: 20px !important;
+    }
+
+    .hero-slim .h3-h1{
+        text-align: left;
+    }
+
+    .hero-sub-icon h4{
+        margin-bottom: 0px !important;
+        font-size: 18px !important;
+    }
+
+    .z-index-slim{
+        align-items: flex-start !important;
+        padding-bottom: 0px !important;
+    }
+
+    .video-insert-slim{
+        width: 100vw !important;
+        height: 30vh !important;
+    }
 
     .grid-anglingiq{
         position: relative;
@@ -4192,7 +4294,7 @@ textarea {
         overflow: visible;
         width: 100%;
         justify-content: flex-start;
-        align-items: center !important;
+        align-items: center;
         padding-left: 0;
         padding-top: 72px;
         align-items: center;
@@ -4245,6 +4347,8 @@ textarea {
         width: 100%;
         height: 50vh;
     }
+
+
 
     .video-insert-2{
         width: 100%;
@@ -4990,6 +5094,7 @@ textarea {
         height: 100vh;
         min-height: 640px;
         padding-bottom: 4vh;
+        margin-right: 10%;
     }
 
     .video-insert{
