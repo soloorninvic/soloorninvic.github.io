@@ -717,7 +717,6 @@ span{
 }
 
 .section-6{
-    padding-top: 80px;    
 }
 
 .section-6 h3{
@@ -755,7 +754,7 @@ span{
       letter-spacing: 0.02em; /* Fallback for browsers that don't support % */
     padding-left: 7vw;
     padding-top: 24px;
-    max-width: 594px;
+    max-width: 560px;
 }
 
 .section-7 span{
@@ -869,7 +868,6 @@ footer path{
 }
 
 .faq-section {
-    padding-top: 40px;
   text-align: center;
 }
 
