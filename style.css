@@ -3469,7 +3469,6 @@ textarea {
     .hero-left-slim{
         padding-top: 12px !important;
         align-items: flex-start !important;
-        margin-left: 16px;
     }
 
     .hero-slim .h1-h2{
@@ -3489,6 +3488,7 @@ textarea {
     .z-index-slim{
         align-items: flex-start !important;
         padding-bottom: 0px !important;
+        margin-left: 16px;
     }
 
     .video-insert-slim{
