@@ -3505,7 +3505,7 @@ textarea {
         bottom: 0;
         z-index: 99;
         background-color: rgba(255, 255, 255, 0.8);
-        margin-bottom: 20px;
+        margin-bottom: 24px;
         backdrop-filter: blur(24px);
         -webkit-backdrop-filter: blur(24px);
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05); /* x-offset | y-offset | blur radius | color */
