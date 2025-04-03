@@ -1199,7 +1199,7 @@ footer path{
     -webkit-backdrop-filter: blur(24px);
     overflow: hidden;
     z-index: 99;
-    padding: 13px 22px 13px 22px;
+    padding: 13px 22px 14px 22px;
     font-size: 16px;
     margin-bottom: 16px;
     bottom: 0;
@@ -4400,7 +4400,7 @@ textarea {
     .gallery button{
         margin-right: 16px;
         font-size: 15px;
-        padding: 12px 16px 13px 16px;        
+        padding: 12px 16px 14px 16px;        
         background-color: rgba(255, 255, 255, 0.8);
     }
 
